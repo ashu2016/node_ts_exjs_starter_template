@@ -1,9 +1,9 @@
-import { RelayLogger } from '../Logger/relay-logger';
+import { Logger } from '../Logger/logger';
 import AdmZip = require('adm-zip');
 
 
-let logger = new RelayLogger();
-export class RelayZipUtils {
+let logger = new Logger();
+export class ZipUtils {
     
     public static unzip(zipPath:string){
         const zip = new AdmZip(zipPath);
