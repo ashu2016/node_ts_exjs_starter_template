@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for api",
+  "scripts": {
+    "start": "tsc && node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashutosh Kumar Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "nodemon": "^1.18.1",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@types/adm-zip": "^0.4.31",
+    "adm-zip": "^0.4.11",
+    "express": "^4.16.3",
+    "log4js": "^3.0.0"
+  }
+}
